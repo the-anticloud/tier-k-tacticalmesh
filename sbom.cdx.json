@@ -1,0 +1,207 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:f043ff29-549d-568b-a32d-08ea28d133bd",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-14T06:08:42Z",
+    "component": {
+      "type": "application",
+      "name": "K_TACTICALMESH",
+      "version": "61a1a7772639",
+      "bom-ref": "pkg:generic/anticloud/K_TACTICALMESH@61a1a7772639",
+      "purl": "pkg:generic/anticloud/K_TACTICALMESH@61a1a7772639",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "61a1a7772639aaeecc302fcc3ece520e924130d2"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/TamTunnel/TacticalMesh"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@emotion/react",
+      "version": "^11.11.3",
+      "purl": "pkg:npm/@emotion/react@^11.11.3",
+      "bom-ref": "npm/@emotion/react@^11.11.3"
+    },
+    {
+      "type": "library",
+      "name": "@emotion/styled",
+      "version": "^11.11.0",
+      "purl": "pkg:npm/@emotion/styled@^11.11.0",
+      "bom-ref": "npm/@emotion/styled@^11.11.0"
+    },
+    {
+      "type": "library",
+      "name": "@mui/icons-material",
+      "version": "^5.15.6",
+      "purl": "pkg:npm/@mui/icons-material@^5.15.6",
+      "bom-ref": "npm/@mui/icons-material@^5.15.6"
+    },
+    {
+      "type": "library",
+      "name": "@mui/material",
+      "version": "^5.15.6",
+      "purl": "pkg:npm/@mui/material@^5.15.6",
+      "bom-ref": "npm/@mui/material@^5.15.6"
+    },
+    {
+      "type": "library",
+      "name": "@mui/x-data-grid",
+      "version": "^6.19.2",
+      "purl": "pkg:npm/@mui/x-data-grid@^6.19.2",
+      "bom-ref": "npm/@mui/x-data-grid@^6.19.2"
+    },
+    {
+      "type": "library",
+      "name": "axios",
+      "version": "^1.6.5",
+      "purl": "pkg:npm/axios@^1.6.5",
+      "bom-ref": "npm/axios@^1.6.5"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "^18.2.0",
+      "purl": "pkg:npm/react@^18.2.0",
+      "bom-ref": "npm/react@^18.2.0"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "^18.2.0",
+      "purl": "pkg:npm/react-dom@^18.2.0",
+      "bom-ref": "npm/react-dom@^18.2.0"
+    },
+    {
+      "type": "library",
+      "name": "react-router-dom",
+      "version": "^6.21.3",
+      "purl": "pkg:npm/react-router-dom@^6.21.3",
+      "bom-ref": "npm/react-router-dom@^6.21.3"
+    },
+    {
+      "type": "library",
+      "name": "@testing-library/jest-dom",
+      "version": "^6.9.1",
+      "purl": "pkg:npm/@testing-library/jest-dom@^6.9.1",
+      "bom-ref": "npm/@testing-library/jest-dom@^6.9.1"
+    },
+    {
+      "type": "library",
+      "name": "@testing-library/react",
+      "version": "^16.3.1",
+      "purl": "pkg:npm/@testing-library/react@^16.3.1",
+      "bom-ref": "npm/@testing-library/react@^16.3.1"
+    },
+    {
+      "type": "library",
+      "name": "@testing-library/user-event",
+      "version": "^14.6.1",
+      "purl": "pkg:npm/@testing-library/user-event@^14.6.1",
+      "bom-ref": "npm/@testing-library/user-event@^14.6.1"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "^18.2.48",
+      "purl": "pkg:npm/@types/react@^18.2.48",
+      "bom-ref": "npm/@types/react@^18.2.48"
+    },
+    {
+      "type": "library",
+      "name": "@types/react-dom",
+      "version": "^18.2.18",
+      "purl": "pkg:npm/@types/react-dom@^18.2.18",
+      "bom-ref": "npm/@types/react-dom@^18.2.18"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/eslint-plugin",
+      "version": "^6.19.0",
+      "purl": "pkg:npm/@typescript-eslint/eslint-plugin@^6.19.0",
+      "bom-ref": "npm/@typescript-eslint/eslint-plugin@^6.19.0"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/parser",
+      "version": "^6.19.0",
+      "purl": "pkg:npm/@typescript-eslint/parser@^6.19.0",
+      "bom-ref": "npm/@typescript-eslint/parser@^6.19.0"
+    },
+    {
+      "type": "library",
+      "name": "@vitejs/plugin-react",
+      "version": "^4.2.1",
+      "purl": "pkg:npm/@vitejs/plugin-react@^4.2.1",
+      "bom-ref": "npm/@vitejs/plugin-react@^4.2.1"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "^8.56.0",
+      "purl": "pkg:npm/eslint@^8.56.0",
+      "bom-ref": "npm/eslint@^8.56.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-react-hooks",
+      "version": "^4.6.0",
+      "purl": "pkg:npm/eslint-plugin-react-hooks@^4.6.0",
+      "bom-ref": "npm/eslint-plugin-react-hooks@^4.6.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-react-refresh",
+      "version": "^0.4.5",
+      "purl": "pkg:npm/eslint-plugin-react-refresh@^0.4.5",
+      "bom-ref": "npm/eslint-plugin-react-refresh@^0.4.5"
+    },
+    {
+      "type": "library",
+      "name": "jsdom",
+      "version": "^27.0.1",
+      "purl": "pkg:npm/jsdom@^27.0.1",
+      "bom-ref": "npm/jsdom@^27.0.1"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5.3.3",
+      "purl": "pkg:npm/typescript@^5.3.3",
+      "bom-ref": "npm/typescript@^5.3.3"
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": "^5.0.12",
+      "purl": "pkg:npm/vite@^5.0.12",
+      "bom-ref": "npm/vite@^5.0.12"
+    },
+    {
+      "type": "library",
+      "name": "vitest",
+      "version": "^3.2.4",
+      "purl": "pkg:npm/vitest@^3.2.4",
+      "bom-ref": "npm/vitest@^3.2.4"
+    }
+  ]
+}
